@@ -1,0 +1,118 @@
+/* STYLE SECTIONING TAGS */
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  margin: 2em;
+  background-color:#FFFFFA;
+  font-family: "Comic Neue", cursive;
+}
+
+header {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center; 
+}
+
+/* STYLE TEXT */
+h1 {
+  color: #00b8b5;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  margin-top: 2em; 
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+}
+
+#result {
+  color: #00CECB;
+  font-size: 30px;
+  font-weight:700;
+  margin-bottom: 2em;
+}
+
+#displayResult {
+  margin-top: 1.5em;
+  border-style: solid;
+  border-color: #FD6A2B;
+}
+
+#restart {
+  border-style: solid;
+  border-color: #FD6A2B;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  margin-top: 2em;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #FD6A2B;
+  border-style: solid;
+  border-color: ##FD6A2B;
+  border-radius: 25px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  display: block;
+  max-height: 80%;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius: 23px;
+}
+
+/* STYLE BUTTON */
+button { 
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 25px;
+  
+  background-color: #FD6A2B;
+  color: black;
+  border-style: none;
+  font-size: 20px;
+  font-family: 'Comic Neue', cursive;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#fffaeb;
+}
+
+.redo {
+  margin: 15px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #00b8b5;
+}
